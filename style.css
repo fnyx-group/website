@@ -212,10 +212,10 @@ a.flust {
 
 .product-logo {
   display: block;
-  height: 64px;
+  height: 34px;
   width: auto;
-  /* Same viewBox padding correction as the header logo. */
-  margin: -15px 0 16px -15px;
+  /* The flust SVG has no viewBox padding, so it sits on the column edge as is. */
+  margin: 0 0 31px;
 }
 
 .status {

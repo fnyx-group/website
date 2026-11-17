@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://fnyx-group.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/flust/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/flust/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/flust/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/flust/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/fr/flust/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/flust/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/flust/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/flust/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/support/</loc>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/legal/</loc>
+  </url>
+</urlset>

@@ -25,6 +25,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/flust/"/>
   </url>
   <url>
+    <loc>https://fnyx-group.org/fnoise/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/fnoise/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/fr/fnoise/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/fnoise/"/>
+  </url>
+  <url>
     <loc>https://fnyx-group.org/support/</loc>
   </url>
   <url>

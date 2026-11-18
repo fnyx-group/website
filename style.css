@@ -4,6 +4,7 @@
   --text: #ffffff;
   --muted: #b9b8c2;
   --accent: #7b6bff;
+  --fnoise: #4cd98a;
   --rule: #2a2a33;
   --measure: 680px;
   --gutter: 20px;
@@ -203,23 +204,32 @@ dd {
   margin: 4px 0 0;
 }
 
-/* The accent color is reserved for flust. */
+/* Each product has its own color, violet (--accent) for flust and green (--fnoise) for fnoise. */
 
 a.flust {
   color: var(--accent);
   text-decoration-color: var(--accent);
 }
 
+a.fnoise {
+  color: var(--fnoise);
+  text-decoration-color: var(--fnoise);
+}
+
 .product-logo {
   display: block;
   height: 34px;
   width: auto;
-  /* The flust SVG has no viewBox padding, so it sits on the column edge as is. */
+  /* The product SVGs have no viewBox padding, so they sit on the column edge as is. */
   margin: 0 0 31px;
 }
 
-.status {
+.status.flust {
   color: var(--accent);
+}
+
+.status.fnoise {
+  color: var(--fnoise);
 }
 
 .status::before {

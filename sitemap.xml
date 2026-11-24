@@ -2,47 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fnyx-group.org/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/"/>
   </url>
   <url>
-    <loc>https://fnyx-group.org/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/"/>
+    <loc>https://fnyx-group.org/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/"/>
   </url>
   <url>
     <loc>https://fnyx-group.org/flust/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/flust/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/flust/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/flust/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/flust/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/flust/"/>
   </url>
   <url>
-    <loc>https://fnyx-group.org/fr/flust/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/flust/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/flust/"/>
+    <loc>https://fnyx-group.org/en/flust/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/flust/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/flust/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/flust/"/>
   </url>
   <url>
     <loc>https://fnyx-group.org/fnoise/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/fnoise/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/fnoise/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/fnoise/"/>
   </url>
   <url>
-    <loc>https://fnyx-group.org/fr/fnoise/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/fnoise/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fr/fnoise/"/>
+    <loc>https://fnyx-group.org/en/fnoise/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/fnoise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/fnoise/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/fnoise/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/confidentialite/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/confidentialite/"/>
   </url>
   <url>
     <loc>https://fnyx-group.org/support/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/support/"/>
   </url>
   <url>
-    <loc>https://fnyx-group.org/privacy/</loc>
+    <loc>https://fnyx-group.org/en/support/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/support/"/>
   </url>
   <url>
-    <loc>https://fnyx-group.org/legal/</loc>
+    <loc>https://fnyx-group.org/mentions-legales/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://fnyx-group.org/en/legal/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fnyx-group.org/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fnyx-group.org/en/legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fnyx-group.org/mentions-legales/"/>
   </url>
 </urlset>

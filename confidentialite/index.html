@@ -58,9 +58,20 @@
   <p>Le responsable du traitement est fnyx-group, association loi 1901 dont le siège est situé au 173 rue de Courcelles, 75017 Paris. Pour toute question, écris à <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a>.</p>
 
   <h2>L'application flust</h2>
-  <p>flust ne collecte aucune donnée. Ce que tu saisis (journal, progression, réglages) reste sur ton téléphone, chiffré. Il n'y a aucun compte. L'application n'a ni mesure d'audience, ni publicité, ni code tiers qui transmet des données. Dans cette version, l'application Android publiée n'a même pas l'autorisation d'utiliser internet, et chacun peut le vérifier dans le manifeste de l'application.</p>
-  <p>Comme rien ne quitte ton téléphone, nous ne pouvons ni voir, ni récupérer, ni supprimer tes données.</p>
-  <p>Le filtre prévu dans une prochaine version utilisera internet pour transmettre les requêtes DNS du téléphone. Une requête DNS contient le nom du site demandé. Avant la sortie de ce filtre, cette page indiquera quel service reçoit ces requêtes et ce qu'il en conserve.</p>
+  <p>flust ne collecte aucune donnée. Ce que tu saisis (journal, progression, réglages) reste sur ton téléphone, chiffré. Il n'y a aucun compte. L'application n'a ni mesure d'audience, ni publicité, ni code tiers qui transmet des données.</p>
+  <p>Comme rien de cela ne quitte ton téléphone, nous ne pouvons ni voir, ni récupérer, ni supprimer tes données.</p>
+
+  <h2>Le filtre sur Android</h2>
+  <p>Sur Android, flust propose un filtre qui bloque les sites pornographiques, y compris ceux qui utilisent l'IA. Il ne s'active que si tu l'acceptes, et tu peux le désactiver dans l'application.</p>
+  <p>Le filtre crée sur ton téléphone un VPN local. Il ne transporte que les requêtes DNS et le trafic envoyé directement aux grands résolveurs DNS publics, qu'il bloque pour empêcher de contourner le filtre. Le reste de ton trafic ne passe pas par flust.</p>
+  <p>Chaque requête DNS est comparée sur ton téléphone aux listes de blocage, qui sont incluses dans l'application et ne sont jamais téléchargées. Les sites bloqués ne sont pas résolus. Les autres requêtes sont envoyées chiffrées (DNS over TLS) à un résolveur public, qui reçoit le nom du site demandé et l'adresse IP de ton téléphone. flust n'enregistre aucune requête, ni bloquée ni autorisée.</p>
+  <p>Les résolveurs sont utilisés dans cet ordre. Si l'un d'eux ne répond pas ou refuse la requête, le suivant prend le relais.</p>
+  <ul>
+    <li><a href="https://quad9.net/news/blog/how-quad9-handles-your-data-2025/" hreflang="en">Quad9</a>, une fondation basée en Suisse, qui n'enregistre pas les adresses IP. Quad9 a annoncé ne plus servir les utilisateurs situés en France à partir du 24 novembre 2026.</li>
+    <li><a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/" hreflang="en">Cloudflare</a>, aux États-Unis, qui ne garde dans ses journaux qu'une partie de l'adresse IP et les supprime sous 25 heures. Il conserve aussi des statistiques globales sans limite de durée et l'adresse complète sur un très petit échantillon du trafic.</li>
+    <li><a href="https://legal-documents-dns4eu.s3.fr-par.scw.cloud/DNS4EU-Public-DNS-Resolver-policy-2025.pdf" hreflang="en">DNS4EU</a>, un service européen exploité par Whalebone en République tchèque. Il garde des journaux pseudonymisés jusqu'à six mois et les partage avec les partenaires du projet. Il peut conserver les adresses IP lors d'une attaque ou d'une panne et applique les blocages ordonnés par la justice.</li>
+  </ul>
+  <p>Ces services traitent les requêtes sous leur propre responsabilité, et le détail figure dans leur politique de confidentialité. Nous n'avons pas accès à leurs données. Pour vérifier que chaque résolveur fonctionne, le filtre envoie aussi des requêtes techniques sur les serveurs racines du DNS, qui ne disent rien de ta navigation.</p>
 
   <h2>Ce site</h2>
   <p>fnyx-group.org ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et ne charge rien depuis d'autres serveurs. Il est hébergé par GitHub Pages. Lors de ta visite, GitHub peut enregistrer des données techniques comme ton adresse IP pour faire fonctionner et protéger le service (voir la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" hreflang="en">déclaration générale de confidentialité de GitHub</a>). Nous n'avons pas accès à ces données.</p>
@@ -69,7 +80,7 @@
   <p>Les e-mails envoyés à <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a> et à <a href="mailto:security@fnyx-group.org">security@fnyx-group.org</a> sont reçus par la messagerie de Proton AG, en Suisse (voir la <a href="https://proton.me/legal/privacy" hreflang="en">politique de confidentialité de Proton</a>). Nous les utilisons seulement pour te répondre et assurer le suivi, ce qui relève de notre intérêt légitime à répondre aux personnes qui nous écrivent. Ils sont supprimés une fois l'échange terminé, et au plus tard un an après le dernier message.</p>
 
   <h2>Hors de l'Union européenne</h2>
-  <p>GitHub est situé aux États-Unis. Les transferts vers GitHub sont encadrés par les garanties prévues par le RGPD, décrites dans la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" hreflang="en">déclaration générale de confidentialité de GitHub</a>. Proton est situé en Suisse, un pays reconnu par la Commission européenne comme offrant un niveau de protection adéquat.</p>
+  <p>GitHub est situé aux États-Unis. Les transferts vers GitHub sont encadrés par les garanties prévues par le RGPD, décrites dans la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" hreflang="en">déclaration générale de confidentialité de GitHub</a>. Si tu utilises le filtre sur Android, tes requêtes DNS peuvent aussi être traitées par Quad9 en Suisse et par Cloudflare aux États-Unis, selon leurs propres garanties. Proton est situé en Suisse, un pays reconnu par la Commission européenne comme offrant un niveau de protection adéquat.</p>
 
   <h2>Tes droits</h2>
   <p>Tu peux demander l'accès à tes données, leur rectification ou leur effacement, t'opposer à leur traitement ou en demander la limitation en écrivant à <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a>. Comme l'application ne nous transmet rien, ces droits concernent surtout les e-mails que tu nous as envoyés. Tu peux aussi adresser une réclamation à la <a href="https://www.cnil.fr">CNIL</a>.</p>

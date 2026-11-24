@@ -58,9 +58,20 @@
   <p>The data controller is fnyx-group, an association under the French law of 1901, with its registered office at 173 rue de Courcelles, 75017 Paris. For any question, write to <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a>.</p>
 
   <h2>The flust app</h2>
-  <p>flust collects no data. What you enter (journal, progress, settings) stays on your phone, encrypted. There is no account. The app has no analytics, no ads and no third-party code that sends data. In this version, the published Android app does not even have permission to use the internet, and anyone can check this in the app's manifest.</p>
-  <p>Since nothing leaves your phone, we cannot see, recover or delete your data.</p>
-  <p>The filter planned for a later version will use the internet to pass on the phone's DNS requests. A DNS request contains the name of the site being requested. Before this filter is released, this page will say which service receives these requests and what it keeps.</p>
+  <p>flust collects no data. What you enter (journal, progress, settings) stays on your phone, encrypted. There is no account. The app has no analytics, no ads and no third-party code that sends data.</p>
+  <p>Since none of this leaves your phone, we cannot see, recover or delete your data.</p>
+
+  <h2>The filter on Android</h2>
+  <p>On Android, flust offers a filter that blocks pornographic sites, including sites that use AI. It only turns on if you accept it, and you can turn it off in the app.</p>
+  <p>The filter creates a local VPN on your phone. It carries only DNS requests and traffic sent directly to the major public DNS resolvers, which it blocks so the filter cannot be bypassed. The rest of your traffic does not go through flust.</p>
+  <p>Each DNS request is checked on your phone against the block lists, which are built into the app and never downloaded. Blocked sites are not resolved. Other requests are sent encrypted (DNS over TLS) to a public resolver, which receives the name of the site requested and your phone's IP address. flust does not log any request, blocked or allowed.</p>
+  <p>The resolvers are used in this order. If one does not answer or refuses the request, the next one takes over.</p>
+  <ul>
+    <li><a href="https://quad9.net/news/blog/how-quad9-handles-your-data-2025/">Quad9</a>, a foundation based in Switzerland, which does not log IP addresses. Quad9 has announced it will no longer serve users in France from 24 November 2026.</li>
+    <li><a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Cloudflare</a>, in the United States, which keeps only part of the IP address in its logs and deletes them within 25 hours. It also keeps overall statistics with no time limit, and full addresses for a very small sample of traffic.</li>
+    <li><a href="https://legal-documents-dns4eu.s3.fr-par.scw.cloud/DNS4EU-Public-DNS-Resolver-policy-2025.pdf">DNS4EU</a>, a European service run by Whalebone in the Czech Republic. It keeps pseudonymised logs for up to six months and shares them with the project's partners. It may keep IP addresses during an attack or a crash and applies court-ordered blocks.</li>
+  </ul>
+  <p>These services handle the requests under their own responsibility, and the details are in their privacy policies. We have no access to their data. To check that each resolver works, the filter also sends technical requests about the DNS root servers, which say nothing about your browsing.</p>
 
   <h2>This website</h2>
   <p>fnyx-group.org sets no cookies, uses no analytics and loads nothing from other servers. It is hosted on GitHub Pages. When you visit, GitHub may log technical data such as your IP address to run and protect the service (see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>). We have no access to this data.</p>
@@ -69,7 +80,7 @@
   <p>Emails sent to <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a> and <a href="mailto:security@fnyx-group.org">security@fnyx-group.org</a> are received by the mail service of Proton AG, in Switzerland (see the <a href="https://proton.me/legal/privacy">Proton privacy policy</a>). We use them only to reply to you and follow up, which is based on our legitimate interest in answering people who write to us. They are deleted once the conversation is over, and at the latest one year after the last message.</p>
 
   <h2>Outside the European Union</h2>
-  <p>GitHub is based in the United States. Transfers to GitHub are covered by the safeguards required by the GDPR, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. Proton is based in Switzerland, a country recognised by the European Commission as providing an adequate level of protection.</p>
+  <p>GitHub is based in the United States. Transfers to GitHub are covered by the safeguards required by the GDPR, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. If you use the filter on Android, your DNS requests may also be handled by Quad9 in Switzerland and Cloudflare in the United States, under their own safeguards. Proton is based in Switzerland, a country recognised by the European Commission as providing an adequate level of protection.</p>
 
   <h2>Your rights</h2>
   <p>You can ask to access, correct or erase your data, object to its processing or ask for it to be restricted by writing to <a href="mailto:contact@fnyx-group.org">contact@fnyx-group.org</a>. Since the app sends us nothing, these rights mostly concern the emails you have sent us. You can also lodge a complaint with the <a href="https://www.cnil.fr" hreflang="fr">CNIL</a>, the French data protection authority.</p>
